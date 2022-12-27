@@ -1,1 +1,67 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com HTML</title>
+</head>
+  <body style="padding: 0 1rem">
+    <header>
+        <h1>Blog de exemplo</h1>
+    </header>
+    <hr>
+    <ul>
+      <li><a href='#newest'>Artigo mais <strong>recente</strong></a></li>
+      <li><a href='#oldest'>Artigo mais <strong>antigo</strong></a></li>
+    </ul>
+    <ol>
+      <h4>Artigos ordenados do mais <mark>novo</mark> ao mais velho</h4>
+      <li>
+        <article>
+          <h2 id='newest'>Título do artigo</h2>
+          <p>Texto do artigo</p>
+          <small><i>Escrito por x</i></small>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Fonte original</a>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2>Título do artigo</h2>
+          <p>Texto do artigo</p>
+          <small><i>Escrito por y</i></small>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Fonte original</a>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2>Uma equação</h2>
+          <p>O <em>Teorema de Pitágoras</em> é frequentemente expresso como a seguinte equação:<br>
+          <var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> = <var>c<sup>2</sup>< /var></p>
+          <small><i>Escrito por y</i></small>
+          <a href="https://pt.wikipedia.org/wiki/Pitágoras">Fonte original</a>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h2 id='oldest'>Título do artigo</h2>
+          <p>Texto do artigo</p>
+          <small><i>Escrito por z</i></small>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Fonte original</a>
+        </article>
+      </li>
+    </ol>
+    <hr>
+    <footer>
+        <h3>Quer receber nossas notícias?</h3>
+        <form>
+            <input type="email" placeholder="Email" required>
+            <br>
+            <button type="submit">Inscreva-se!</button>
+        </form>
+    </footer>
+    <blockquote cite='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>
+      JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
+    </blockquote>
+  </body>
+</html>
